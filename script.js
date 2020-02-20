@@ -35,7 +35,7 @@ function addEmployee(){
     }
   }
   
-  var id = Math.floor(Math.random()*99999999)+10000000;
+  var id = Math.floor(Math.random()*89999999)+10000000;
   
   if(ids.includes(id)){
     employeeid = id +1;
